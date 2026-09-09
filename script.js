@@ -1,0 +1,1 @@
+document.getElementById('fraudForm').addEventListener('submit',function(e){e.preventDefault();document.getElementById('status').textContent='Report तैयार है। अभी कोई data server पर नहीं भेजा गया है। Real submissions के लिए secure backend जोड़ें।';this.reset();});
